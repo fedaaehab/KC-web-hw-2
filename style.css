@@ -52,3 +52,43 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 .navigation a:hover{
  color: #660708;   
 }
+
+.adventurecard{
+display: flex;
+margin: 30px;  
+width:50% ;
+align-items: center;
+}
+
+
+
+
+ .cardadventure{
+background-color: #F5F3F4; 
+width:30% ; 
+padding: 12px;
+margin: 8px;  
+color: #161A1D;
+border-radius:3%;
+
+}
+
+.cardadventure img {
+width:100% ;
+height: 90%;    
+}
+
+.adven{
+display: flex;
+color: #F5F3F4; 
+justify-content: center; 
+font-size: 2.2em;
+font-weight: 700; 
+margin-bottom: 30px;
+}
+
+.info{
+color: #161A1D;
+height: fit-content;    
+}
+
