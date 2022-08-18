@@ -110,36 +110,6 @@ font-weight: 800;
 
 
 .adventure-container{
- max-width: 968px;
- margin-right: auto; 
- margin-left: auto;
- display: grid;
- grid-template-columns: repeat(auto-fit,minmax(180px,auto));
- gap: 1rem;
-margin-top: 2rem;   
-}
-
-.box .box-img{
- width: 100%;
- height: 270px;
- color: #F5F3F4;  
-}
-
-.box .box-img img{
-    width: 100%;
-    height: 100%;
-   object-fit: contain;
-   
-}
-span{
-    color:#F5F3F4;
-}
-.box h3{
-    color:#F5F3F4;
-}
-
-
-.comedy-container{
     max-width: 968px;
     margin-right: auto; 
     margin-left: auto;
@@ -148,18 +118,49 @@ span{
     gap: 1rem;
    margin-top: 2rem;   
    }
-
    
-.drama-container{
-    max-width: 968px;
-    margin-right: auto; 
-    margin-left: auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(180px,auto));
-    gap: 1rem;
-   margin-top: 2rem;
-   margin-bottom: 4rem;   
+   .box .box-img{
+    width: 100%;
+    height: 270px;
+    color: #F5F3F4;  
    }
+   
+   .box .box-img img{
+       width: 100%;
+       height: 100%;
+      object-fit: contain;
+      
+   }
+   span{
+       color:#F5F3F4;
+   }
+   .box h3{
+       color:#F5F3F4;
+   }
+   
+   
+   .comedy-container{
+       max-width: 968px;
+       margin-right: auto; 
+       margin-left: auto;
+       display: grid;
+       grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+       gap: 1rem;
+      margin-top: 2rem;   
+      }
+   
+      
+   .drama-container{
+       max-width: 968px;
+       margin-right: auto; 
+       margin-left: auto;
+       display: grid;
+       grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+       gap: 1rem;
+      margin-top: 2rem;
+      margin-bottom: 4rem;   
+      }
+   
 
    footer{
     background-color: #0B090A;
@@ -175,4 +176,26 @@ span{
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
+   }
+
+   .box:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: translateY(-10px);
+    transition: 0.2s all linear;
+    cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur117.cur), progress;
+   }
+   .box .box-img img:hover{
+    transform: translateY(-10px);
+    transition: 0.2s all linear;
+   }
+
+   button{
+
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+    font-family:font-family: 'Secular One', sans-serif; 
+    
+
    }
